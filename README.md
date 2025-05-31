@@ -5,7 +5,7 @@ Proyek ini bertujuan untuk menganalisis sentimen dari ulasan produk yang ada di 
 
 ## 📂 Raw Dataset Link
 Dataset yang digunakan berasal dari data publik ulasan Shopee. Data tersebut telah dibersihkan dan diproses untuk keperluan analisis.  
-📎 *[Tambahkan link ke dataset di Google Drive atau repo jika ada]*
+📎 [Shopee Customer Review Sentiment Analysis - Kaggle Notebook](https://www.kaggle.com/code/davydev/shopee-customer-review-sentiment-analysis/data)
 
 ## 🔍 Insight & Findings
 - Mayoritas ulasan pelanggan bersentimen **positif**, mencerminkan kepuasan terhadap produk dan layanan.
@@ -23,9 +23,9 @@ Analisis dilakukan dengan pendekatan NLP dan klasifikasi teks. Tahapan utama:
 - **Modeling:** digunakan algoritma Machine Learning seperti **Naive Bayes** untuk klasifikasi sentimen.
 - Evaluasi model dilakukan dengan metrik akurasi dan confusion matrix.
 
+## 📓 Notebook Analisis Lengkap
 Notebook analisis lengkap dapat dilihat di:  
-📓 [Google Colab Notebook Link]  
-📎 *[Tambahkan link ke notebook di GitHub atau Google Colab]*
+📓 [Shopee Sentiment Analysis - Colab](https://colab.research.google.com/drive/1eQ9NPrYywwZRcycs-lQ9AQIsEMQHDBZU?usp=sharing)
 
 ---
 
