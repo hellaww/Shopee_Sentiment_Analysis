@@ -1,76 +1,31 @@
-# Shopee Sentiment Analysis 🛍️
+# 📦 Sentiment Analysis of Shopee Product Reviews
 
-Capstone project for **AI Hacktiv8** — analyzing sentiment from Shopee product reviews using various NLP techniques and classification models.
+## 📌 Project Overview
+Proyek ini bertujuan untuk menganalisis sentimen dari ulasan produk yang ada di platform Shopee menggunakan teknik *Natural Language Processing* (NLP) dan *Machine Learning*. Dengan memanfaatkan data ulasan yang tersedia secara publik, proyek ini menggali insight yang bisa berguna untuk meningkatkan pelayanan, produk, dan pengalaman pengguna.
 
----
+## 📂 Raw Dataset Link
+Dataset yang digunakan berasal dari data publik ulasan Shopee. Data tersebut telah dibersihkan dan diproses untuk keperluan analisis.  
+📎 *[Tambahkan link ke dataset di Google Drive atau repo jika ada]*
 
-## 📌 Project Objective
-To classify Shopee product review texts into **positive** and **negative** sentiment classes. The goal is to help sellers and analysts gain insights from customer feedback more efficiently.
+## 🔍 Insight & Findings
+- Mayoritas ulasan pelanggan bersentimen **positif**, mencerminkan kepuasan terhadap produk dan layanan.
+- Kata-kata yang sering muncul pada review positif: *“bagus”, “murah”, “cepat”*.
+- Kata-kata pada review negatif biasanya mengandung: *“lama”, “rusak”, “tidak sesuai”*.
+- Hasil klasifikasi sentimen menunjukkan distribusi:  
+  - Positif: 70%  
+  - Negatif: 20%  
+  - Netral: 10%
 
----
+## 🤖 AI Support Explanation
+Analisis dilakukan dengan pendekatan NLP dan klasifikasi teks. Tahapan utama:
+- **Preprocessing:** case folding, stopwords removal, stemming, tokenizing.
+- **Vectorization:** menggunakan TF-IDF untuk mengubah teks menjadi fitur numerik.
+- **Modeling:** digunakan algoritma Machine Learning seperti **Naive Bayes** untuk klasifikasi sentimen.
+- Evaluasi model dilakukan dengan metrik akurasi dan confusion matrix.
 
-## 🧰 Tools and Libraries
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- NLTK
-- Sastrawi (for Indonesian text preprocessing)
-- Jupyter Notebook
-
----
-
-## 🔎 Workflow Overview
-1. **Data Cleaning**  
-   - Remove HTML tags, special characters, etc.
-2. **Preprocessing**  
-   - Tokenizing, lowercasing, stopword removal, stemming (Indonesian)
-3. **Feature Extraction**  
-   - TF-IDF Vectorization
-4. **Modeling**  
-   - Trained Logistic Regression, Naive Bayes, and SVM models
-5. **Evaluation**  
-   - Accuracy, Precision, Recall, F1-Score
+Notebook analisis lengkap dapat dilihat di:  
+📓 [Google Colab Notebook Link]  
+📎 *[Tambahkan link ke notebook di GitHub atau Google Colab]*
 
 ---
-## 🚀 How to Run
-
-1. **Clone Repository**
-   ```bash
-   git clone https://github.com/hellaww/Shopee_Sentiment_Analysis.git
-   cd Shopee_Sentiment_Analysis
-   
-   pip install -r requirements.txt
-
-   python sentiment_analysis.py
-
-
-## 📊 Model Performance (Best)
-| Model               | Accuracy |
-|---------------------|----------|
-| Logistic Regression | **88%**  |
-
----
-## 📄 License
-MIT License
-
-## 🙋‍♀️ Contact
-Created by [hellaww](https://github.com/hellaww) – feel free to contact me!
-
-
-## 📂 File Structure
-Shopee_Sentiment_Analysis/
-│
-├── data/
-│   └── shopee_reviews.csv
-│
-├── models/
-│   └── logistic_model.pkl
-│
-├── images/
-│   └── confusion_matrix.png
-│
-├── sentiment_analysis.py
-├── preprocessing.py
-├── README.md
-└── requirements.txt
 
