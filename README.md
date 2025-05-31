@@ -23,6 +23,15 @@ Analisis dilakukan dengan pendekatan NLP dan klasifikasi teks. Tahapan utama:
 - **Modeling:** digunakan algoritma Machine Learning seperti **Naive Bayes** untuk klasifikasi sentimen.
 - Evaluasi model dilakukan dengan metrik akurasi dan confusion matrix.
 
+## 💡 Recommendations
+Berdasarkan hasil analisis, Shopee dapat:
+- Meningkatkan kualitas produk yang sering dikritik (misal: "rusak", "tidak sesuai").
+- Mempercepat proses pengiriman barang untuk menjaga sentimen positif.
+- Meningkatkan sistem review otomatis untuk menangkap masukan pelanggan lebih cepat.
+
+## 📊 Model Performance
+Model Naive Bayes mencapai akurasi sebesar 84% dengan nilai precision dan recall yang seimbang, menunjukkan performa yang baik dalam klasifikasi sentimen.
+
 ## 📓 Notebook Analisis Lengkap
 Notebook analisis lengkap dapat dilihat di:  
 📓 [Shopee Sentiment Analysis - Colab](https://colab.research.google.com/drive/1eQ9NPrYywwZRcycs-lQ9AQIsEMQHDBZU?usp=sharing)
