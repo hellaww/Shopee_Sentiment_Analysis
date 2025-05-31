@@ -32,6 +32,12 @@ To classify Shopee product review texts into **positive** and **negative** senti
    - Accuracy, Precision, Recall, F1-Score
 
 ---
+## 🚀 How to Run
+
+1. **Clone Repository**
+   ```bash
+   git clone https://github.com/hellaww/Shopee_Sentiment_Analysis.git
+   cd Shopee_Sentiment_Analysis
 
 ## 📊 Model Performance (Best)
 | Model               | Accuracy |
@@ -41,3 +47,19 @@ To classify Shopee product review texts into **positive** and **negative** senti
 ---
 
 ## 📂 File Structure
+Shopee_Sentiment_Analysis/
+│
+├── data/
+│   └── shopee_reviews.csv
+│
+├── models/
+│   └── logistic_model.pkl
+│
+├── images/
+│   └── confusion_matrix.png
+│
+├── sentiment_analysis.py
+├── preprocessing.py
+├── README.md
+└── requirements.txt
+
