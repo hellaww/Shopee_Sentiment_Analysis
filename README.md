@@ -38,6 +38,11 @@ To classify Shopee product review texts into **positive** and **negative** senti
    ```bash
    git clone https://github.com/hellaww/Shopee_Sentiment_Analysis.git
    cd Shopee_Sentiment_Analysis
+   
+   pip install -r requirements.txt
+
+   python sentiment_analysis.py
+
 
 ## 📊 Model Performance (Best)
 | Model               | Accuracy |
@@ -45,6 +50,12 @@ To classify Shopee product review texts into **positive** and **negative** senti
 | Logistic Regression | **88%**  |
 
 ---
+## 📄 License
+MIT License
+
+## 🙋‍♀️ Contact
+Created by [hellaww](https://github.com/hellaww) – feel free to contact me!
+
 
 ## 📂 File Structure
 Shopee_Sentiment_Analysis/
