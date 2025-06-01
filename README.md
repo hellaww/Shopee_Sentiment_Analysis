@@ -34,7 +34,7 @@ Model Naive Bayes mencapai akurasi sebesar 84% dengan nilai precision dan recall
 
 ## 📓 Notebook Analisis Lengkap
 Notebook analisis lengkap dapat dilihat di:  
-📓 [Shopee Sentiment Analysis - Colab](https://colab.research.google.com/drive/1eQ9NPrYywwZRcycs-lQ9AQIsEMQHDBZU?usp=sharing)
+📓 [Shopee Sentiment Analysis - Colab](https://colab.research.google.com/drive/1wWGoD-Sfb57aRjXRdKFyc6f3bmQsFrab?usp=sharing)
 
 ---
 
